@@ -1,5 +1,19 @@
-// eslint-disable-next-line no-unused-vars
+const basicAuth = require('./basicAuth');
+
 module.exports = function (app) {
-  // Add your custom middleware here. Remember that
-  // in Express, the order matters.
+  // basic auth
+  basicAuth(app);
+
+  // root api status
+  app.get('/', (req, res) => {
+    res.json({
+      status: 'OK',
+    });
+  });
+
+  // robots.txt
+  app.get('/robots.txt', (req, res) => {
+    res.type('text/plain');
+    res.send('User-agent: *\nDisallow: /');
+  });
 };

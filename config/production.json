@@ -1,4 +1,7 @@
 {
-  "host": "serum-price-api-app.feathersjs.com",
-  "port": "PORT"
+  "host": "HOST",
+  "port": "PORT",
+  "basicAuth": "BASIC_AUTH",
+  "basicAuthUser": "BASIC_AUTH_USER",
+  "basicAuthPassword": "BASIC_AUTH_PASSWORD"
 }
