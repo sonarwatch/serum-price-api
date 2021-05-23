@@ -37,6 +37,26 @@
         "responses": {
           "200": {
             "description": "OK",
+            "headers": {
+              "X-RateLimit-Limit": {
+                "schema": {
+                  "type": "integer"
+                },
+                "description": "Request limit per window."
+              },
+              "X-RateLimit-Remaining": {
+                "schema": {
+                  "type": "integer"
+                },
+                "description": "The number of requests left for the time window."
+              },
+              "X-RateLimit-Reset": {
+                "schema": {
+                  "type": "integer"
+                },
+                "description": "The timestamp at which the current rate limit window resets."
+              }
+            },
             "content": {
               "application/json": {
                 "schema": {
@@ -69,6 +89,26 @@
         "responses": {
           "200": {
             "description": "OK",
+            "headers": {
+              "X-RateLimit-Limit": {
+                "schema": {
+                  "type": "integer"
+                },
+                "description": "Request limit per window."
+              },
+              "X-RateLimit-Remaining": {
+                "schema": {
+                  "type": "integer"
+                },
+                "description": "The number of requests left for the time window."
+              },
+              "X-RateLimit-Reset": {
+                "schema": {
+                  "type": "integer"
+                },
+                "description": "The timestamp at which the current rate limit window resets."
+              }
+            },
             "content": {
               "application/json": {
                 "schema": {
@@ -79,6 +119,26 @@
           },
           "404": {
             "description": "NotFound",
+            "headers": {
+              "X-RateLimit-Limit": {
+                "schema": {
+                  "type": "integer"
+                },
+                "description": "Request limit per window."
+              },
+              "X-RateLimit-Remaining": {
+                "schema": {
+                  "type": "integer"
+                },
+                "description": "The number of requests left for the time window."
+              },
+              "X-RateLimit-Reset": {
+                "schema": {
+                  "type": "integer"
+                },
+                "description": "The timestamp at which the current rate limit window resets."
+              }
+            },
             "content": {
               "application/json": {
                 "schema": {
