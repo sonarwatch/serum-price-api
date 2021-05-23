@@ -104,43 +104,7 @@
             }
           },
           "404": {
-            "description": "NotFound",
-            "headers": {
-              "X-RateLimit-Limit": {
-                "$ref": "#/components/headers/X-RateLimit-Limit"
-              },
-              "X-RateLimit-Remaining": {
-                "$ref": "#/components/headers/X-RateLimit-Remaining"
-              },
-              "X-RateLimit-Reset": {
-                "$ref": "#/components/headers/X-RateLimit-Reset"
-              }
-            },
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "name": {
-                      "type": "string",
-                      "example": "NotFound"
-                    },
-                    "message": {
-                      "type": "string",
-                      "example": "No record found for id '1111111111111111111111111111111'"
-                    },
-                    "code": {
-                      "type": "number",
-                      "example": 404
-                    },
-                    "className": {
-                      "type": "string",
-                      "example": "not-found"
-                    }
-                  }
-                }
-              }
-            }
+            "$ref": "#/components/responses/NotFound"
           },
           "429": {
             "$ref": "#/components/responses/TooManyRequests"
@@ -172,7 +136,28 @@
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/Error429"
+              "$ref": "#/components/schemas/error429"
+            }
+          }
+        }
+      },
+      "NotFound": {
+        "description": "Not found",
+        "headers": {
+          "X-RateLimit-Limit": {
+            "$ref": "#/components/headers/X-RateLimit-Limit"
+          },
+          "X-RateLimit-Remaining": {
+            "$ref": "#/components/headers/X-RateLimit-Remaining"
+          },
+          "X-RateLimit-Reset": {
+            "$ref": "#/components/headers/X-RateLimit-Reset"
+          }
+        },
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/error404"
             }
           }
         }
@@ -244,7 +229,7 @@
           }
         ]
       },
-      "Error429": {
+      "error429": {
         "type": "object",
         "properties": {
           "name": {
@@ -262,6 +247,27 @@
           "className": {
             "type": "string",
             "example": "too-many-requests"
+          }
+        }
+      },
+      "error404": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "example": "NotFound"
+          },
+          "message": {
+            "type": "string",
+            "example": "No record found for id '[...]'"
+          },
+          "code": {
+            "type": "number",
+            "example": 404
+          },
+          "className": {
+            "type": "string",
+            "example": "not-found"
           }
         }
       }
