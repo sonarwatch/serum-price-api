@@ -53,7 +53,7 @@
         "tags": [
           "price"
         ],
-        "summary": "Find token price by mint address",
+        "summary": "Find price by mint",
         "description": "",
         "operationId": "",
         "parameters": [
@@ -81,7 +81,27 @@
             "description": "NotFound",
             "content": {
               "application/json": {
-                "schema": {}
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string",
+                      "example": "NotFound"
+                    },
+                    "message": {
+                      "type": "string",
+                      "example": "No record found for id '1111111111111111111111111111111'"
+                    },
+                    "code": {
+                      "type": "number",
+                      "example": 404
+                    },
+                    "className": {
+                      "type": "string",
+                      "example": "not-found"
+                    }
+                  }
+                }
               }
             }
           }
@@ -91,7 +111,7 @@
     }
   },
   "externalDocs": {
-    "description": "Find out more about Serum",
+    "description": "Find out more about Serum markets",
     "url": "https://github.com/project-serum/awesome-serum"
   },
   "components": {
