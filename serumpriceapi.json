@@ -1,0 +1,154 @@
+{
+  "openapi": "3.0.0",
+  "servers": [
+    {
+      "url": "https://price-api.sonar.watch"
+    }
+  ],
+  "info": {
+    "description": "Get mid price of a SPL token (based on a serum market)",
+    "version": "0.0.1",
+    "title": "Sonar - Serum Price API",
+    "termsOfService": "",
+    "contact": {
+      "email": "sonar.watch.sol@gmail.com"
+    }
+  },
+  "tags": [
+    {
+      "name": "price",
+      "description": "Operations about price"
+    }
+  ],
+  "paths": {
+    "/prices": {
+      "get": {
+        "tags": [
+          "price"
+        ],
+        "summary": "Get all prices",
+        "description": "",
+        "parameters": [],
+        "operationId": "",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ArrayOfPrices"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/prices/{address}": {
+      "get": {
+        "tags": [
+          "price"
+        ],
+        "summary": "Find price by address",
+        "description": "",
+        "operationId": "",
+        "parameters": [
+          {
+            "name": "address",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Price"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "NotFound",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        },
+        "security": []
+      }
+    }
+  },
+  "externalDocs": {
+    "description": "Find out more about Serum",
+    "url": "https://github.com/project-serum/awesome-serum"
+  },
+  "components": {
+    "schemas": {
+      "Price": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "example": "So11111111111111111111111111111111111111112"
+          },
+          "address": {
+            "type": "string",
+            "example": "So11111111111111111111111111111111111111112"
+          },
+          "price": {
+            "type": "number",
+            "example": 12.22
+          },
+          "updatedAt": {
+            "type": "string",
+            "example": "2021-05-23T14:14:15.166Z"
+          }
+        }
+      },
+      "ArrayOfPrices": {
+        "type": "array",
+        "items": {
+          "$ref": "#/components/schemas/Price"
+        },
+        "example": [
+          {
+            "id": "11111111111111111111111111111111",
+            "adrress": "11111111111111111111111111111111",
+            "price": 22.8119,
+            "updatedAt": "2021-05-23T14:14:14.286Z"
+          },
+          {
+            "id": "So11111111111111111111111111111111111111112",
+            "adrress": "So11111111111111111111111111111111111111112",
+            "price": 22.8119,
+            "updatedAt": "2021-05-23T14:14:15.166Z"
+          },
+          {
+            "id": "kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6",
+            "adrress": "kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6",
+            "price": 0.000041,
+            "updatedAt": "2021-05-23T14:14:15.983Z"
+          },
+          {
+            "id": "3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE",
+            "adrress": "3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE",
+            "price": 2.41,
+            "updatedAt": "2021-05-23T14:14:16.867Z"
+          }
+        ]
+      }
+    },
+    "securitySchemes": {},
+    "links": {},
+    "callbacks": {}
+  },
+  "security": []
+}
