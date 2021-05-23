@@ -146,26 +146,38 @@
           {
             "mint": "11111111111111111111111111111111",
             "symbol": "SOL",
-            "price": 22.8119,
-            "updatedAt": "2021-05-23T14:14:14.286Z"
+            "price": 23.514,
+            "updatedAt": "2021-05-23T20:04:47.572Z"
           },
           {
             "mint": "So11111111111111111111111111111111111111112",
             "symbol": "SOL",
-            "price": 22.8119,
-            "updatedAt": "2021-05-23T14:14:15.166Z"
+            "price": 23.514,
+            "updatedAt": "2021-05-23T20:04:48.132Z"
           },
           {
             "mint": "kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6",
             "symbol": "KIN",
-            "price": 0.000041,
-            "updatedAt": "2021-05-23T14:14:15.983Z"
+            "price": 0.0000386,
+            "updatedAt": "2021-05-23T20:04:48.684Z"
           },
           {
-            "mint": "3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE",
-            "symbol": "XCOPE",
-            "price": 2.41,
-            "updatedAt": "2021-05-23T14:14:16.867Z"
+            "mint": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+            "symbol": "RAY",
+            "price": 3.2485,
+            "updatedAt": "2021-05-23T20:04:49.782Z"
+          },
+          {
+            "mint": "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt",
+            "symbol": "SRM",
+            "price": 3.598,
+            "updatedAt": "2021-05-23T20:04:50.346Z"
+          },
+          {
+            "mint": "2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk",
+            "symbol": "ETH",
+            "price": 2029.395,
+            "updatedAt": "2021-05-23T20:04:33.191Z"
           }
         ]
       }
