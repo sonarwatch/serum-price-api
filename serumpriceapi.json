@@ -39,22 +39,13 @@
             "description": "OK",
             "headers": {
               "X-RateLimit-Limit": {
-                "schema": {
-                  "type": "integer"
-                },
-                "description": "Request limit per window."
+                "$ref": "#/components/headers/X-RateLimit-Limit"
               },
               "X-RateLimit-Remaining": {
-                "schema": {
-                  "type": "integer"
-                },
-                "description": "The number of requests left for the time window."
+                "$ref": "#/components/headers/X-RateLimit-Remaining"
               },
               "X-RateLimit-Reset": {
-                "schema": {
-                  "type": "integer"
-                },
-                "description": "The timestamp at which the current rate limit window resets."
+                "$ref": "#/components/headers/X-RateLimit-Reset"
               }
             },
             "content": {
@@ -95,22 +86,13 @@
             "description": "OK",
             "headers": {
               "X-RateLimit-Limit": {
-                "schema": {
-                  "type": "integer"
-                },
-                "description": "Request limit per window."
+                "$ref": "#/components/headers/X-RateLimit-Limit"
               },
               "X-RateLimit-Remaining": {
-                "schema": {
-                  "type": "integer"
-                },
-                "description": "The number of requests left for the time window."
+                "$ref": "#/components/headers/X-RateLimit-Remaining"
               },
               "X-RateLimit-Reset": {
-                "schema": {
-                  "type": "integer"
-                },
-                "description": "The timestamp at which the current rate limit window resets."
+                "$ref": "#/components/headers/X-RateLimit-Reset"
               }
             },
             "content": {
@@ -125,22 +107,13 @@
             "description": "NotFound",
             "headers": {
               "X-RateLimit-Limit": {
-                "schema": {
-                  "type": "integer"
-                },
-                "description": "Request limit per window."
+                "$ref": "#/components/headers/X-RateLimit-Limit"
               },
               "X-RateLimit-Remaining": {
-                "schema": {
-                  "type": "integer"
-                },
-                "description": "The number of requests left for the time window."
+                "$ref": "#/components/headers/X-RateLimit-Remaining"
               },
               "X-RateLimit-Reset": {
-                "schema": {
-                  "type": "integer"
-                },
-                "description": "The timestamp at which the current rate limit window resets."
+                "$ref": "#/components/headers/X-RateLimit-Reset"
               }
             },
             "content": {
@@ -260,6 +233,26 @@
             "updatedAt": "2021-05-23T20:04:33.191Z"
           }
         ]
+      }
+    },
+    "headers": {
+      "X-RateLimit-Limit": {
+        "schema": {
+          "type": "integer"
+        },
+        "description": "Request limit per window."
+      },
+      "X-RateLimit-Remaining": {
+        "schema": {
+          "type": "integer"
+        },
+        "description": "The number of requests left for the time window."
+      },
+      "X-RateLimit-Reset": {
+        "schema": {
+          "type": "integer"
+        },
+        "description": "The timestamp at which the current rate limit window resets."
       }
     },
     "securitySchemes": {},
