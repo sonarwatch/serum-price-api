@@ -4,7 +4,7 @@ const { Service } = require('feathers-memory');
 
 const logger = require('../../logger');
 const sleep = require('../../utils/sleep');
-const MARKETS = require('../../utils/MARKETS');
+const markets = require('../../utils/markets.json');
 
 exports.Prices = class Prices extends Service {
   setup(app) {
@@ -12,10 +12,10 @@ exports.Prices = class Prices extends Service {
   }
 
   async updateAll() {
-    for (let i = 0; i < MARKETS.length; i += 1) {
-      const baseMarket = MARKETS[i];
-      const marketAddress = new PublicKey(baseMarket.baseMarketId);
-      const programId = new PublicKey(baseMarket.programId);
+    for (let i = 0; i < markets.length; i += 1) {
+      const baseMarketObj = markets[i];
+      const marketAddress = new PublicKey(baseMarketObj.marketId);
+      const programId = new PublicKey(baseMarketObj.programId);
       try {
         const market = await Market.load(this.connection, marketAddress, {}, programId);
         const bids = await market.loadBids(this.connection);
@@ -26,8 +26,8 @@ exports.Prices = class Prices extends Service {
         const midPrice = (firstBid.value.price + firstAsk.value.price) / 2;
 
         const price = {
-          id: baseMarket.tokenMint,
-          adrress: baseMarket.tokenMint,
+          id: baseMarketObj.tokenMint,
+          adrress: baseMarketObj.tokenMint,
           price: midPrice,
         };
         await this.create(price);
