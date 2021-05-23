@@ -1,8 +1,11 @@
 const basicAuth = require('./basicAuth');
+const rateLimit = require('./rateLimit');
 
 module.exports = function (app) {
   // basic auth
   basicAuth(app);
+  // rate limit
+  rateLimit(app);
 
   // root api status
   app.get('/', (req, res) => {
