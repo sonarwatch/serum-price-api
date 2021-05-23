@@ -14,8 +14,8 @@
       "url": "https://github.com/sonar-watch/serum-price-api"
     },
     "x-logo": {
-      "url": "https://sonar.watch/logos/sonar/sonar_logomark.svg",
-      "altText": "Sonar logo"
+      "url": "https://raw.githubusercontent.com/sonar-watch/serum-price-api/gh-pages/logo.svg",
+      "altText": "logo"
     }
   },
   "tags": [
