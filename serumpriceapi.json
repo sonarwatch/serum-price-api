@@ -161,8 +161,7 @@
         "content": {
           "text/html": {
             "schema": {
-              "type": "string",
-              "example": "Too many requests, please try again later."
+              "$ref": "#/components/schemas/Error429"
             }
           }
         }
@@ -233,6 +232,10 @@
             "updatedAt": "2021-05-23T20:04:33.191Z"
           }
         ]
+      },
+      "Error429": {
+        "type": "string",
+        "example": "Too many requests, please try again later."
       }
     },
     "headers": {
