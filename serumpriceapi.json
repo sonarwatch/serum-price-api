@@ -170,7 +170,7 @@
           }
         },
         "content": {
-          "text/html": {
+          "application/json": {
             "schema": {
               "$ref": "#/components/schemas/Error429"
             }
