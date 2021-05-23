@@ -11,7 +11,7 @@
     "title": "Sonar - Serum Price API",
     "termsOfService": "",
     "contact": {
-      "email": "sonar.watch.sol@gmail.com"
+      "url": "https://github.com/sonar-watch/serum-price-api"
     },
     "x-logo": {
       "url": "https://sonar.watch/logos/sonar/sonar_logomark.svg",
