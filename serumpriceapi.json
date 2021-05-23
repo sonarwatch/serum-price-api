@@ -33,7 +33,7 @@
         "summary": "Get all prices",
         "description": "",
         "parameters": [],
-        "operationId": "",
+        "operationId": "getAllPrices",
         "responses": {
           "200": {
             "description": "OK",
@@ -78,7 +78,7 @@
         ],
         "summary": "Find price by mint",
         "description": "",
-        "operationId": "",
+        "operationId": "findPriceByMint",
         "parameters": [
           {
             "name": "mint",
