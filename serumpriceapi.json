@@ -245,8 +245,25 @@
         ]
       },
       "Error429": {
-        "type": "string",
-        "example": "Too many requests, please try again later."
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "example": "TooManyRequests"
+          },
+          "message": {
+            "type": "string",
+            "example": "Too many requests, please try again later."
+          },
+          "code": {
+            "type": "number",
+            "example": 429
+          },
+          "className": {
+            "type": "string",
+            "example": "too-many-requests"
+          }
+        }
       }
     },
     "headers": {
