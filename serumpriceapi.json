@@ -64,6 +64,9 @@
                 }
               }
             }
+          },
+          "429": {
+            "$ref": "#/components/responses/TooManyRequests"
           }
         }
       }
@@ -164,6 +167,9 @@
                 }
               }
             }
+          },
+          "429": {
+            "$ref": "#/components/responses/TooManyRequests"
           }
         },
         "security": []
@@ -175,6 +181,19 @@
     "url": "https://github.com/project-serum/awesome-serum"
   },
   "components": {
+    "responses": {
+      "TooManyRequests": {
+        "description": "Too many requests",
+        "content": {
+          "text/html": {
+            "schema": {
+              "type": "string",
+              "example": "Too many requests, please try again later."
+            }
+          }
+        }
+      }
+    },
     "schemas": {
       "Price": {
         "type": "object",
