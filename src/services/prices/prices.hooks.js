@@ -1,4 +1,4 @@
-const { disallow, setNow } = require('feathers-hooks-common');
+const { disallow, setNow, discard } = require('feathers-hooks-common');
 
 module.exports = {
   before: {
@@ -12,7 +12,7 @@ module.exports = {
   },
 
   after: {
-    all: [],
+    all: [discard('id')],
     find: [],
     get: [],
     create: [],

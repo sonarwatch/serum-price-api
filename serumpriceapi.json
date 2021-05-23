@@ -44,17 +44,17 @@
         }
       }
     },
-    "/prices/{address}": {
+    "/prices/{mint}": {
       "get": {
         "tags": [
           "price"
         ],
-        "summary": "Find price by address",
+        "summary": "Find token price by mint address",
         "description": "",
         "operationId": "",
         "parameters": [
           {
-            "name": "address",
+            "name": "mint",
             "in": "path",
             "required": true,
             "schema": {
@@ -95,13 +95,13 @@
       "Price": {
         "type": "object",
         "properties": {
-          "id": {
+          "mint": {
             "type": "string",
             "example": "So11111111111111111111111111111111111111112"
           },
-          "address": {
+          "symbol": {
             "type": "string",
-            "example": "So11111111111111111111111111111111111111112"
+            "example": "SOL"
           },
           "price": {
             "type": "number",
@@ -120,26 +120,26 @@
         },
         "example": [
           {
-            "id": "11111111111111111111111111111111",
-            "adrress": "11111111111111111111111111111111",
+            "mint": "11111111111111111111111111111111",
+            "symbol": "SOL",
             "price": 22.8119,
             "updatedAt": "2021-05-23T14:14:14.286Z"
           },
           {
-            "id": "So11111111111111111111111111111111111111112",
-            "adrress": "So11111111111111111111111111111111111111112",
+            "mint": "So11111111111111111111111111111111111111112",
+            "symbol": "SOL",
             "price": 22.8119,
             "updatedAt": "2021-05-23T14:14:15.166Z"
           },
           {
-            "id": "kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6",
-            "adrress": "kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6",
+            "mint": "kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6",
+            "symbol": "KIN",
             "price": 0.000041,
             "updatedAt": "2021-05-23T14:14:15.983Z"
           },
           {
-            "id": "3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE",
-            "adrress": "3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE",
+            "mint": "3K6rftdAaQYMPunrtNRHgnK2UAtjm2JwyT2oCiTDouYE",
+            "symbol": "XCOPE",
             "price": 2.41,
             "updatedAt": "2021-05-23T14:14:16.867Z"
           }

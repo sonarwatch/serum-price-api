@@ -27,7 +27,8 @@ exports.Prices = class Prices extends Service {
 
         const price = {
           id: baseMarketObj.tokenMint,
-          adrress: baseMarketObj.tokenMint,
+          mint: baseMarketObj.tokenMint,
+          symbol: baseMarketObj.symbol,
           price: midPrice,
         };
         await this.create(price);
