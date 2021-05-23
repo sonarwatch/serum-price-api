@@ -14,8 +14,7 @@
       "email": "sonar.watch.sol@gmail.com"
     },
     "x-logo": {
-      "url": "https://sonar.watch/logos/sonar/sonar_logomark.png",
-      "backgroundColor": "#FFFFFF",
+      "url": "https://sonar.watch/logos/sonar/sonar_logomark.svg",
       "altText": "Sonar logo"
     }
   },
