@@ -31,18 +31,20 @@
     </style>
   </head>
   <body>
-    <redoc
-      disable-search="true"
-      no-auto-auth="true"
-      untrusted-spec="true"
-      hide-download-button="true"
-      theme='{
-        "logo": {
-          "maxWidth": "70px"
-        }
-      }'
-      spec-url='https://raw.githubusercontent.com/sonar-watch/serum-price-api/main/serumpriceapi.json'
-    ></redoc>
+    <div id="redoc-container"></div>
     <script src="https://cdn.jsdelivr.net/npm/redoc@next/bundles/redoc.standalone.js"> </script>
+    <script>
+      Redoc.init('https://raw.githubusercontent.com/sonar-watch/serum-price-api/main/serumpriceapi.json', {
+        hideDownloadButton: true,
+        disableSearch: true,
+        noAutoAuth: true,
+        untrustedSpec: true,
+        theme: {
+          logo: {
+            maxWidth: '70px'
+          }
+        }
+      }, document.getElementById('redoc-container'))
+    </script>
   </body>
 </html>
