@@ -85,7 +85,8 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "example": "So11111111111111111111111111111111111111112"
             }
           }
         ],
