@@ -8,7 +8,7 @@
   "info": {
     "description": "Get mid price of a SPL token (based on a serum market)",
     "version": "0.0.1",
-    "title": "Sonar - Serum Price API",
+    "title": "Serum Price API",
     "termsOfService": "",
     "contact": {
       "url": "https://github.com/sonar-watch/serum-price-api"
