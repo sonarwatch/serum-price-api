@@ -179,6 +179,10 @@
             "type": "number",
             "example": 12.22
           },
+          "market": {
+            "type": "string",
+            "example": "9wFFyRfZBsuAha4YcuxcXLKwMxJR43S7fPfQLusDBzvT"
+          },
           "updatedAt": {
             "type": "string",
             "example": "2021-05-23T14:14:15.166Z"
@@ -195,36 +199,42 @@
             "mint": "11111111111111111111111111111111",
             "symbol": "SOL",
             "price": 23.514,
+            "market": "9wFFyRfZBsuAha4YcuxcXLKwMxJR43S7fPfQLusDBzvT",
             "updatedAt": "2021-05-23T20:04:47.572Z"
           },
           {
             "mint": "So11111111111111111111111111111111111111112",
             "symbol": "SOL",
             "price": 23.514,
+            "market": "9wFFyRfZBsuAha4YcuxcXLKwMxJR43S7fPfQLusDBzvT",
             "updatedAt": "2021-05-23T20:04:48.132Z"
           },
           {
             "mint": "kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6",
             "symbol": "KIN",
             "price": 0.0000386,
+            "market": "Bn6NPyr6UzrFAwC4WmvPvDr2Vm8XSUnFykM2aQroedgn",
             "updatedAt": "2021-05-23T20:04:48.684Z"
           },
           {
             "mint": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
             "symbol": "RAY",
             "price": 3.2485,
+            "market": "2xiv8A5xrJ7RnGdxXB42uFEkYHJjszEhaJyKKt4WaLep",
             "updatedAt": "2021-05-23T20:04:49.782Z"
           },
           {
             "mint": "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt",
             "symbol": "SRM",
             "price": 3.598,
+            "market": "ByRys5tuUWDgL73G8JBAEfkdFf8JWBzPBDHsBVQ5vbQA",
             "updatedAt": "2021-05-23T20:04:50.346Z"
           },
           {
             "mint": "2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk",
             "symbol": "ETH",
             "price": 2029.395,
+            "market": "4tSvZvnbyzHXLMTiFonMyxZoHmFqau1XArcRCVHLZ5gX",
             "updatedAt": "2021-05-23T20:04:33.191Z"
           }
         ]

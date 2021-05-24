@@ -30,6 +30,7 @@ exports.Prices = class Prices extends Service {
           mint: baseMarketObj.tokenMint,
           symbol: baseMarketObj.symbol,
           price: midPrice,
+          market: baseMarketObj.marketId,
         };
         await this.create(price);
       } catch (error) {
