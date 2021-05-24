@@ -1,45 +1,25 @@
-# serum-price-api
+<h1 align="center">
+  <br>
+   <img width="400" src="https://sonar.watch/logos/sonar/sonar_logo.svg" alt="logo sonar"/>
+  <br>
+</h1>
 
-> 
+# Sonar - Serum Price API
 
-## About
+## How to use
 
-This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
+### Use Sonar's public API
+Sonar provides a public instance of the api.
+For more information on its use, please use the following documentation: [DOCUMENTATION](http://docs.price-api.sonar.watch/)
 
-## Getting Started
+### Deploy your own API
+The easiest way, to get up and running quickly, is to deploy to Heroku using the button below.
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-Getting up and running is as easy as 1, 2, 3.
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
-2. Install your dependencies
-
-    ```
-    cd path/to/serum-price-api
-    npm install
-    ```
-
-3. Start your app
-
-    ```
-    npm start
-    ```
-
-## Testing
-
-Simply run `npm test` and all your tests in the `test/` directory will be run.
-
-## Scaffolding
-
-Feathers has a powerful command line interface. Here are a few things it can do:
-
-```
-$ npm install -g @feathersjs/cli          # Install Feathers CLI
-
-$ feathers generate service               # Generate a new Service
-$ feathers generate hook                  # Generate a new Hook
-$ feathers help                           # Show all commands
-```
-
-## Help
-
-For more information on all the things you can do with Feathers visit [docs.feathersjs.com](http://docs.feathersjs.com).
+## Acknowledgements
+* This project uses [Solana](https://solana.com/). A fast, secure, and censorship resistant blockchain providing the open infrastructure required for global adoption.
+* This project uses [Project Serum's markets](https://projectserum.com/). An ecosystem that brings unprecedented speed and low transaction costs to decentralized finance.
+* This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
