@@ -9,11 +9,11 @@
 ## How to use
 
 ### Use Sonar's public API
-Sonar provides a public instance of the api.
-For more information on its use, please use the following documentation: [DOCUMENTATION](http://docs.price-api.sonar.watch/)
+Sonar provides a public instance of the api.<br>
+For more information on its use, please use the following documentation: [DOCS](http://docs.price-api.sonar.watch/)
 
 ### Deploy your own API
-The easiest way, to get up and running quickly, is to deploy to Heroku using the button below.
+The easiest way, to get up and running quickly, is to deploy to Heroku using the button below.<br>
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## Contributing
