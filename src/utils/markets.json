@@ -184,5 +184,11 @@
     "tokenMint": "8GQsW3f7mdwfjqJon2myADcBsSsRjpXmxHYDG8q1pvV6",
     "marketId": "G2j5zKtfymPcWMq1YRoKrfUWy64SZ6ZxDVscHSyPQqmz",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "SLIM",
+    "tokenMint": "xxxxa1sKNGwFtw2kFn8XauW9xq8hBZ5kVtcSesTT9fW",
+    "marketId": "HSfEpP3ciPBC5bBdtjBDa8BxsUW32zUzRGLPpPuDyVY4",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
