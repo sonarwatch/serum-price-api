@@ -1,5 +1,5 @@
 {
-  "name": "Sonar - Serum Price API",
+  "name": "Serum Price API",
   "description": "An easy to use API to know SPL Token price of the Solana blockchain",
   "repository": "https://github.com/sonar-watch/serum-price-api",
   "logo": "https://sonar.watch/logos/sonar/sonar_logomark.svg",

@@ -4,7 +4,7 @@
   <br>
 </h1>
 
-# Sonar - Serum Price API
+# Serum Price API
 
 ## How to use
 
