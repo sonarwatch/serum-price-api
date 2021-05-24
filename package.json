@@ -1,12 +1,15 @@
 {
   "name": "serum-price-api",
-  "description": "",
+  "description": "An easy to use API to know SPL Token price of the Solana blockchain",
   "version": "0.0.1",
   "homepage": "",
   "private": true,
   "main": "src",
   "keywords": [
-    "feathers"
+    "api",
+    "feathers",
+    "serum",
+    "solana"
   ],
   "author": {
     "name": "Baurain Olivier",
