@@ -1,0 +1,32 @@
+{
+  "name": "Sonar - Serum Price API",
+  "description": "An easy to use API to know SPL Token price of the Solana blockchain",
+  "repository": "https://github.com/sonar-watch/serum-price-api",
+  "logo": "https://sonar.watch/logos/sonar/sonar_logomark.svg",
+  "keywords": ["node", "serum", "api", "feathers", "solana"],
+  "env": {
+    "BASIC_AUTH": {
+      "description": "A boolean indicating whether there is a BasicAuth",
+      "required": true,
+      "value": "false"
+    },
+    "BASIC_AUTH_USER": {
+      "description": "The username for the basic auth (leave blank if not activated)",
+      "required": false
+    },
+    "BASIC_AUTH_PASSWORD": {
+      "description": "The password for the basic auth (leave blank if not activated)",
+      "required": false
+    },
+    "HOST": {
+      "description": "Leave as is, unless you know what you are doing",
+      "required": true,
+      "value": "localhost"
+    },
+    "NODE_ENV": {
+      "description": "Leave as is, unless you know what you are doing",
+      "required": true,
+      "value": "PRODUCTION"
+    }
+  }
+}
