@@ -26,7 +26,7 @@
     "NODE_ENV": {
       "description": "Leave as is, unless you know what you are doing",
       "required": true,
-      "value": "PRODUCTION"
+      "value": "production"
     }
   }
 }
