@@ -1,0 +1,26 @@
+[
+  {
+    "symbol": "USDC",
+    "price": 1,
+    "tokenMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "marketId": "77quYg4MGneUdjgXCunt9GgM1usmrxKY31twEy3WHwcS"
+  },
+  {
+    "symbol": "WUSDC",
+    "price": 1,
+    "tokenMint": "BXXkv6z8ykpG1yuvUDPgh732wzVHB69RnB9YgSYh3itW",
+    "marketId": "77quYg4MGneUdjgXCunt9GgM1usmrxKY31twEy3WHwcS"
+  },
+  {
+    "symbol": "USDT",
+    "price": 1,
+    "tokenMint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "marketId": "77quYg4MGneUdjgXCunt9GgM1usmrxKY31twEy3WHwcS"
+  },
+  {
+    "symbol": "wUSDT",
+    "price": 1,
+    "tokenMint": "BQcdHdAQW1hczDbBi9hiegXAR7A98Q9jx3X3iBBBDiq4",
+    "marketId": "77quYg4MGneUdjgXCunt9GgM1usmrxKY31twEy3WHwcS"
+  }
+]
