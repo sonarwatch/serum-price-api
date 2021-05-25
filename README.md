@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-   <img width="400" src="https://sonar.watch/logos/sonar/sonar_logo.svg" alt="logo sonar"/>
+   <img width="400" src="https://sonar.watch/logos/sonar/sonar_logo_black.png" alt="logo sonar"/>
   <br>
 </h1>
 
