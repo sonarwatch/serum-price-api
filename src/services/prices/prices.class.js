@@ -9,7 +9,7 @@ const stableCoins = require('../../utils/stableCoins.json');
 
 exports.Prices = class Prices extends Service {
   setup(app) {
-    this.connection = app.get('connection');
+    this.connections = app.get('connections');
   }
 
   async addStableCoins() {
@@ -33,13 +33,14 @@ exports.Prices = class Prices extends Service {
   async updateAll() {
     await this.addStableCoins();
     for (let i = 0; i < markets.length; i += 1) {
+      const connection = this.connections[i % this.connections.length];
       const baseMarketObj = markets[i];
       const marketAddress = new PublicKey(baseMarketObj.marketId);
       const programId = new PublicKey(baseMarketObj.programId);
       try {
-        const market = await Market.load(this.connection, marketAddress, {}, programId);
-        const bids = await market.loadBids(this.connection);
-        const asks = await market.loadAsks(this.connection);
+        const market = await Market.load(connection, marketAddress, {}, programId);
+        const bids = await market.loadBids(connection);
+        const asks = await market.loadAsks(connection);
 
         const firstAsk = await asks.items(false).next();
         const firstBid = await bids.items(true).next();
@@ -56,7 +57,7 @@ exports.Prices = class Prices extends Service {
       } catch (error) {
         logger.error('[PRICES_updateAll]', `[${marketAddress.toString()}]`, error);
       }
-      await sleep(500);
+      await sleep(250);
     }
   }
 };

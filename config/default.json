@@ -6,7 +6,6 @@
     "default": 10,
     "max": 50
   },
-  "rpcEndpoint": "https://api.mainnet-beta.solana.com",
   "basicAuth": false,
   "basicAuthUser": null,
   "basicAuthPassword": null

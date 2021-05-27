@@ -8,6 +8,6 @@ module.exports = async function infiniteLoop(app) {
     console.time('PricesUpdated');
     await pricesService.updateAll();
     console.timeEnd('PricesUpdated');
-    await sleep();
+    await sleep(50);
   }
 };
