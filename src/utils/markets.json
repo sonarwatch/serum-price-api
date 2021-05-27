@@ -208,5 +208,11 @@
     "tokenMint": "AMdnw9H5DFtQwZowVFr4kUgSXJzLokKSinvgGiUoLSps",
     "marketId": "HiyxvxXTf4VB1W7SiHcyysdskxTCfwmpeTqdJ8tettnD",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "SXP",
+    "tokenMint": "SF3oTvfWzEP3DTwGSvUXRrGTvr75pdZNnBLAH9bzMuX",
+    "marketId": "4LUro5jaPaTurXK737QAxgJywdhABnFAMQkXX4ZyqqaZ",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
