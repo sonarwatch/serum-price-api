@@ -226,5 +226,35 @@
     "tokenMint": "5p2zjqCd1WJzAVgcEnjhb9zWDU7b9XVhFhx4usiyN7jB",
     "marketId": "9fe1MWiKqUdwift3dEpxuRHWftG72rysCRHbxDy6i9xB",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "CHEEMS",
+    "tokenMint": "3FoUAsGDbvTD6YZ4wVKJgTB76onJUKz7GPEBNiR5b8wc",
+    "marketId": "5WVBCaUPZF4HP3io9Z56N71cPMJt8qh3c4ZwSjRDeuut",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "PPUG",
+    "tokenMint": "E7WqtfRHcY8YW8z65u9WmD7CfMmvtrm2qPVicSzDxLaT",
+    "marketId": "AGkyBUo7pbsfJd1EEvczUbBizhiKdwBsYgpNTXJWvEoh",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "sCAT",
+    "tokenMint": "HAgX1HSfok8DohiNCS54FnC2UJkDSrRVnT38W3iWFwc8",
+    "marketId": "FhiqrjSsQuEEe2FUMxzkwFadsAwA9ea9YMJLivEFKFbQ",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "INO",
+    "tokenMint": "E1PvPRPQvZNivZbXRL61AEGr71npZQ5JGxh4aWX7q9QA",
+    "marketId": "HyERWE8TEQmDX157oLEpwaTc59ECzmvjUgZhZ2RNtNdn",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "FEFE",
+    "tokenMint": "77v5pt7oFaBHfVP9E97cwKT5AnFRwPbnxSNJvzXkWTUV",
+    "marketId": "GXL164trLUbf7FTjp76DLdgPiAzjysGosUaKTbCrsFK3",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
