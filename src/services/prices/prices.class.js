@@ -55,7 +55,7 @@ exports.Prices = class Prices extends Service {
         };
         await this.create(price);
       } catch (error) {
-        logger.error('[PRICES_updateAll]', `[${marketAddress.toString()}]`, error);
+        logger.error(`[PRICES_updateAll][${baseMarketObj.marketId}]`, error);
       }
       await sleep(250);
     }
