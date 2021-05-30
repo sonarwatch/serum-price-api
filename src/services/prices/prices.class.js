@@ -21,7 +21,7 @@ exports.Prices = class Prices extends Service {
           mint: stableCoin.tokenMint,
           symbol: stableCoin.symbol,
           price: stableCoin.price,
-          market: stableCoin.marketId,
+          serumV3Usdc: stableCoin.serumV3Usdc,
         };
         await this.create(price);
       }
@@ -35,7 +35,7 @@ exports.Prices = class Prices extends Service {
     for (let i = 0; i < markets.length; i += 1) {
       const connection = this.connections[i % this.connections.length];
       const baseMarketObj = markets[i];
-      const marketAddress = new PublicKey(baseMarketObj.marketId);
+      const marketAddress = new PublicKey(baseMarketObj.serumV3Usdc);
       const programId = new PublicKey(baseMarketObj.programId);
       try {
         const market = await Market.load(connection, marketAddress, {}, programId);
@@ -44,20 +44,21 @@ exports.Prices = class Prices extends Service {
 
         const firstAsk = await asks.items(false).next();
         const firstBid = await bids.items(true).next();
-        const midPrice = (firstBid.value.price + firstAsk.value.price) / 2;
+        if (!firstAsk.value || !firstBid.value) continue;
 
+        const midPrice = (firstBid.value.price + firstAsk.value.price) / 2;
         const price = {
           id: baseMarketObj.tokenMint,
           mint: baseMarketObj.tokenMint,
           symbol: baseMarketObj.symbol,
           price: midPrice,
-          market: baseMarketObj.marketId,
+          serumV3Usdc: baseMarketObj.serumV3Usdc,
         };
         await this.create(price);
       } catch (error) {
-        logger.error(`[PRICES_updateAll][${baseMarketObj.marketId}]`, error);
+        logger.error(`[PRICES_updateAll][${baseMarketObj.serumV3Usdc}]`, error);
       }
-      await sleep(250);
+      await sleep(500);
     }
   }
 };
