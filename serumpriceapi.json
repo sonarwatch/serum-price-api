@@ -6,7 +6,7 @@
     }
   ],
   "info": {
-    "description": "An easy to use API to know SPL Token price of the Solana blockchain. Sonar provides a public instance of the api. Rate limit: 10 requests per 10 seconds. Public endpoint: https://price-api.sonar.watch",
+    "description": "An easy to use API to know SPL Token price of the Solana blockchain. Price is base on mid price of the serum market. Sonar provides a public instance of the api. Rate limit: 10 requests per 10 seconds. Public endpoint: https://price-api.sonar.watch",
     "version": "0.0.1",
     "title": "Serum Price API",
     "termsOfService": "",
@@ -21,7 +21,7 @@
   "tags": [
     {
       "name": "price",
-      "description": "Operations about price"
+      "description": "Operations about price. The list of supported tokens is available at: https://github.com/sonar-watch/serum-price-api/blob/main/src/utils/markets.json  / To add a token/market please make a pull request."
     }
   ],
   "paths": {
@@ -31,7 +31,7 @@
           "price"
         ],
         "summary": "Get all prices",
-        "description": "",
+        "description": "Get prices of all supported tokens.",
         "parameters": [],
         "operationId": "getAllPrices",
         "responses": {
