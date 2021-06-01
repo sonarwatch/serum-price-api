@@ -310,5 +310,11 @@
     "tokenMint": "HBHMiauecxer5FCzPeXgE2A8ZCf7fQgxxwo4vfkFtC7s",
     "serumV3Usdc": "F4CtSAoT1xrQSgGAJ5sVBkhofjbh4m7LcYtSKk26u9Ty",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "BOP",
+    "tokenMint": "BLwTnYKqf7u4qjgZrrsKeNs2EzWkMLqVCu6j8iHyrNA3",
+    "serumV3Usdc": "7MmPwD1K56DthW14P1PnWZ4zPCbPWemGs3YggcT1KzsM",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
