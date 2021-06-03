@@ -334,5 +334,11 @@
     "tokenMint": "DJafV9qemGp7mLMEn5wrfqaFwxsbLgUsGVS16zKRk9kc",
     "serumV3Usdc": "6Pn1cSiRos3qhBf54uBP9ZQg8x3JTardm1dL3n4p29tA",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "LLAMA",
+    "tokenMint": "9nusLQeFKiocswDt6NQsiErm1M43H2b8x6v5onhivqKv",
+    "serumV3Usdc": "6KKRzEedDY1dybdrfFzjDzTxCVuxdHgaiQFYUfoupigK",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
