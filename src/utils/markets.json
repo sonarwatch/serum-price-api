@@ -397,5 +397,19 @@
     "decimals": 1,
     "serumV3Usdc": "6KKRzEedDY1dybdrfFzjDzTxCVuxdHgaiQFYUfoupigK",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "FTR",
+    "tokenMint": "HEhMLvpSdPviukafKwVN8BnBUTamirptsQ6Wxo5Cyv8s",
+    "decimals": 9,
+    "serumV3Usdc": "4JP75nztBEo5rYhW1LTQyc4qfjPB33jMWEUvp2DGrQQR",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "SAIL",
+    "tokenMint": "6kwTqmdQkJd8qRr9RjSnUX9XJ24RmJRSrU1rsragP97Y",
+    "decimals": 6,
+    "serumV3Usdc": "6hwK66FfUdyhncdQVxWFPRqY8y6usEvzekUaqtpKEKLr",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
