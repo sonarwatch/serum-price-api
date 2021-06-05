@@ -16,6 +16,9 @@ For more information on its use, please use the following documentation: [DOCS](
 The easiest way, to get up and running quickly, is to deploy to Heroku using the button below.<br>
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+## Add your token
+To add your token to the API, please create an ISSUE from the [Add a market] template available: [HERE](https://github.com/sonar-watch/serum-price-api/issues/new/choose) 
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
