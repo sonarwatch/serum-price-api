@@ -9,7 +9,7 @@
 ## How to use
 
 ### Use Sonar's public API
-Sonar provides a public instance of the api at: [https://price-api.sonar.watch/](https://price-api.sonar.watch/)<br>
+Sonar provides a public instance of the api at: [https://price-api.sonar.watch/prices](https://price-api.sonar.watch/prices)<br>
 For more information on its use, please use the following documentation: [DOCS](http://docs.price-api.sonar.watch/)
 
 ### Deploy your own API
