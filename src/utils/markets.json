@@ -446,5 +446,12 @@
     "decimals": 4,
     "serumV3Usdc": "863Xvd4XuxRkGYP2REkN6A1ABpc45cmcpaZV1vkoqB22",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "BDE",
+    "tokenMint": "H5gczCNbrtso6BqGKihF97RaWaxpUEZnFuFUKK4YX3s2",
+    "decimals": 9,
+    "serumV3Usdc": "2kQer4JyDA8wRxNpSCNG8zAne1zwWVhByTUu8Qi6BEjR",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
