@@ -189,6 +189,13 @@
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   },
   {
+    "symbol": "MAPSPOOL",
+    "tokenMint": "Gnhy3boBT4MA8TTjGip5ND2uNsceh1Wgeaw1rYJo51ZY",
+    "decimals": 6,
+    "serumV3Usdc": "7ygqNwjA94Qu8YKxB8j2ePXYEFyWLcYGUUCVzV9puAhJ",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
     "symbol": "TULIP",
     "tokenMint": "TuLipcqtGVXP9XR62wM8WWCm6a9vhLs7T1uoWBk6FDs",
     "decimals": 6,
