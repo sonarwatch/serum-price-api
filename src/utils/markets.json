@@ -439,5 +439,12 @@
     "decimals": 9,
     "serumV3Usdc": "9G2bAA5Uv8JyPZteuP73GJLUGg5CMbhMLCRSBUBLoXyt",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "BLD",
+    "tokenMint": "DrcPRJPBiakQcWqon3gZms7sviAqdQS5zS5wvaG5v6wu",
+    "decimals": 4,
+    "serumV3Usdc": "863Xvd4XuxRkGYP2REkN6A1ABpc45cmcpaZV1vkoqB22",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
