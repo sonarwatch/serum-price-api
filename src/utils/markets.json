@@ -453,5 +453,12 @@
     "decimals": 9,
     "serumV3Usdc": "2kQer4JyDA8wRxNpSCNG8zAne1zwWVhByTUu8Qi6BEjR",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "DAL",
+    "tokenMint": "AnyCsr1VCBZcwVAxbKPuHhKDP5DQQSnRxGAo4ycgRMi2",
+    "decimals": 9,
+    "serumV3Usdc": "J5EzuaPHiB2zJ2aTfsm5gTSGsBWQbWXc13RBcmiuw1E7",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
