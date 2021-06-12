@@ -460,5 +460,12 @@
     "decimals": 9,
     "serumV3Usdc": "J5EzuaPHiB2zJ2aTfsm5gTSGsBWQbWXc13RBcmiuw1E7",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "SolPAD",
+    "tokenMint": "GfJ3Vq2eSTYf1hJP6kKLE9RT6u7jF9gNszJhZwo5VPZp",
+    "decimals": 9,
+    "serumV3Usdc": "7T3LrFYUW6EScECJwGuePjFuHWR2cpaQMwbsH9i1tca9",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
