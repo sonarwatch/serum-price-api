@@ -460,5 +460,12 @@
     "decimals": 9,
     "serumV3Usdc": "J5EzuaPHiB2zJ2aTfsm5gTSGsBWQbWXc13RBcmiuw1E7",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "JOKE",
+    "tokenMint": "8NGgmXzBzhsXz46pTC3ioSBxeE3w2EXpc741N3EQ8E6r",
+    "decimals": 9,
+    "serumV3Usdc": "3dFAa6MP8RToK7oLQEns1zzWLp7mEPLx4xrV7WTZ4WZW",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
