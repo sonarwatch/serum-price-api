@@ -474,5 +474,12 @@
     "decimals": 9,
     "serumV3Usdc": "3dFAa6MP8RToK7oLQEns1zzWLp7mEPLx4xrV7WTZ4WZW",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "SNOWSHOE",
+    "tokenMint": "FY6XDSCubMhpkU9FAsUjB7jmN8YHYZGezHTWo9RHBSyX",
+    "decimals": 4,
+    "serumV3Usdc": "56ZFVzqMqtDmyry9bK7vi1szUV2nuQ4kT6CzFAB649wE",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
