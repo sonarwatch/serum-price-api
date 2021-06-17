@@ -492,7 +492,7 @@
   {
     "symbol": "PARTI",
     "tokenMint": "B3Ggjjj3QargPkFTAJiR6BaD8CWKFUaWRXGcDQ1nyeeD",
-    "decimals": 6,
+    "decimals": 9,
     "serumV3Usdc": "9xgxfrcUEMbyXg8FQsuyhNXxQ13Gy4kBqXJgZnXDdzSZ",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
