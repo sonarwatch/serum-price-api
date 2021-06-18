@@ -495,5 +495,12 @@
     "decimals": 9,
     "serumV3Usdc": "9xgxfrcUEMbyXg8FQsuyhNXxQ13Gy4kBqXJgZnXDdzSZ",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "RSR",
+    "tokenMint": "7ncCLJpP3MNww17LW8bRvx8odQQnubNtfNZBL5BgAEHW",
+    "decimals": 6,
+    "serumV3Usdc": "FcPet5fz9NLdbXwVM6kw2WTHzRAD7mT78UjwTpawd7hJ",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
