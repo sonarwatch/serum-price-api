@@ -516,5 +516,12 @@
     "decimals": 9,
     "serumV3Usdc": "2QXXnRnSBi4tviNUAsYv7tYDvYb17BQhK5MxR4sX5J3B",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "CCAI",
+    "tokenMint": "E5ndSkaB17Dm7CsD22dvcjfrYSDLCxFcMd6z8ddCk5wp",
+    "decimals": 9,
+    "serumV3Usdc": "7gZNLDbWE73ueAoHuAeFoSu7JqmorwCLpNTBXHtYSFTa",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
