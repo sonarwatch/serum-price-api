@@ -530,5 +530,12 @@
     "decimals": 4,
     "serumV3Usdc": "BTUSB3yTsXB6VZrMUcFWQMacPVCpRpzVGLuzsz5TGqAB",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "DINO",
+    "tokenMint": "6Y7LbYB3tfGBG6CSkyssoxdtHb77AEMTRVXe8JUJRwZ7",
+    "decimals": 6,
+    "serumV3Usdc": "AC11orBo1k5PFPyhjTj9o4KjcwD9b95hauSRtExy8eKv",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
