@@ -523,5 +523,12 @@
     "decimals": 9,
     "serumV3Usdc": "7gZNLDbWE73ueAoHuAeFoSu7JqmorwCLpNTBXHtYSFTa",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "PGNT",
+    "tokenMint": "BxHJqGtC629c55swCqWXFGA2rRF1igbbTmh22H8ePUWG",
+    "decimals": 4,
+    "serumV3Usdc": "BTUSB3yTsXB6VZrMUcFWQMacPVCpRpzVGLuzsz5TGqAB",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
