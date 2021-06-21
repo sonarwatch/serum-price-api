@@ -537,5 +537,12 @@
     "decimals": 6,
     "serumV3Usdc": "AC11orBo1k5PFPyhjTj9o4KjcwD9b95hauSRtExy8eKv",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "CAPE",
+    "tokenMint": "GpYMp8eP3HADY8x1jLVfFVBVYqxFNxT5mFhZAZt9Poco",
+    "decimals": 9,
+    "serumV3Usdc": "85CTDt8gNfJhmqE3Xm2smDm54HmeT1jvLfPVBTkX8BTX",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
