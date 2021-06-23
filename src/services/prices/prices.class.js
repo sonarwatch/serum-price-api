@@ -76,7 +76,7 @@ exports.Prices = class Prices extends Service {
       } catch (error) {
         logger.error(`[PRICES_updateAll][${baseMarketObj.serumV3Usdc}]`, error);
       }
-      await sleep(400);
+      await sleep(800);
     }
   }
 };
