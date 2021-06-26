@@ -40,14 +40,19 @@ exports.Prices = class Prices extends Service {
       const baseMarketObj = markets[i];
       const marketAddress = new PublicKey(baseMarketObj.serumV3Usdc);
       const programId = new PublicKey(baseMarketObj.programId);
+      const price = {
+        id: baseMarketObj.tokenMint,
+        mint: baseMarketObj.tokenMint,
+        symbol: baseMarketObj.symbol,
+        price: 0,
+        serumV3Usdc: baseMarketObj.serumV3Usdc,
+      };
       try {
         const { owner, data } = throwIfNull(
           await connection.getAccountInfo(marketAddress),
           'Market not found',
         );
-        if (!owner.equals(programId)) {
-          throw new Error(`Address not owned by program: ${owner.toBase58()}`);
-        }
+        if (!owner.equals(programId)) { throw new Error(`Address not owned by program: ${owner.toBase58()}`); }
         const decoded = Market.getLayout(programId).decode(data);
         if (
           !decoded.accountFlags.initialized
@@ -56,25 +61,20 @@ exports.Prices = class Prices extends Service {
         ) {
           throw new Error('Invalid market');
         }
+
         const market = new Market(decoded, baseMarketObj.decimals, USDC_DECIMALS, {}, programId);
         const bids = await market.loadBids(connection);
         const asks = await market.loadAsks(connection);
-
         const firstAsk = await asks.items(false).next();
         const firstBid = await bids.items(true).next();
-        if (!firstAsk.value || !firstBid.value) continue;
+        if (firstAsk.value && firstBid.value) {
+          const midPrice = (firstBid.value.price + firstAsk.value.price) / 2;
+          price.price = midPrice;
+        }
 
-        const midPrice = (firstBid.value.price + firstAsk.value.price) / 2;
-        const price = {
-          id: baseMarketObj.tokenMint,
-          mint: baseMarketObj.tokenMint,
-          symbol: baseMarketObj.symbol,
-          price: midPrice,
-          serumV3Usdc: baseMarketObj.serumV3Usdc,
-        };
         await this.create(price);
       } catch (error) {
-        logger.error(`[PRICES_updateAll][${baseMarketObj.serumV3Usdc}]`, error);
+        logger.error(error);
       }
       await sleep(2000);
     }
