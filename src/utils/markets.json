@@ -544,5 +544,12 @@
     "decimals": 9,
     "serumV3Usdc": "85CTDt8gNfJhmqE3Xm2smDm54HmeT1jvLfPVBTkX8BTX",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "TUTL",
+    "tokenMint": "3VhB8EAL8dZ457SiksLPpMUR1pyACpbNh5rTjQUEVCcH",
+    "decimals": 9,
+    "serumV3Usdc": "BE475cb7v35FSRNzDGju1ijcqR7dZMiMcG9hjjYpikQn",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
