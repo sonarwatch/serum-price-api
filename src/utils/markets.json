@@ -565,5 +565,12 @@
     "decimals": 6,
     "serumV3Usdc": "2Ux1EYeWsxywPKouRCNiALCZ1y3m563Tc4hq1kQganiq",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "SNYPOOL",
+    "tokenMint": "FETUGUMHsz8ivDmc3pZuFeAf3e3YFvGPbygziW7iTTc4",
+    "decimals": 6,
+    "serumV3Usdc": "Eg35DZcYLx6JvZfrEAWgDPfSXJbx2N7hbEwVD56RiXnk",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
