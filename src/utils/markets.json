@@ -558,5 +558,12 @@
     "decimals": 9,
     "serumV3Usdc": "GX26tyJyDxiFj5oaKvNB9npAHNgdoV9ZYHs5ijs5yG2U",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "WOO",
+    "tokenMint": "E5rk3nmgLUuKUiS94gg4bpWwWwyjCMtddsAXkTFLtHEy",
+    "decimals": 6,
+    "serumV3Usdc": "2Ux1EYeWsxywPKouRCNiALCZ1y3m563Tc4hq1kQganiq",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
