@@ -551,5 +551,12 @@
     "decimals": 9,
     "serumV3Usdc": "BE475cb7v35FSRNzDGju1ijcqR7dZMiMcG9hjjYpikQn",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "APEX",
+    "tokenMint": "51tMb3zBKDiQhNwGqpgwbavaGH54mk8fXFzxTc1xnasg",
+    "decimals": 9,
+    "serumV3Usdc": "GX26tyJyDxiFj5oaKvNB9npAHNgdoV9ZYHs5ijs5yG2U",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
