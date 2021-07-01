@@ -579,5 +579,12 @@
     "decimals": 6,
     "serumV3Usdc": "DPfj2jYwPaezkCmUNm5SSYfkrkz8WFqwGLcxDDUsN3gA",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "VCC",
+    "tokenMint": "FZgL5motNWEDEa24xgfSdBDfXkB9Ru9KxfEsey9S58bb",
+    "decimals": 6,
+    "serumV3Usdc": "FbZF6hevYa8m6cQK5ApMH2fTpFboXSnutdPMn3m5akwj",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
