@@ -586,5 +586,12 @@
     "decimals": 6,
     "serumV3Usdc": "FbZF6hevYa8m6cQK5ApMH2fTpFboXSnutdPMn3m5akwj",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "SLRS",
+    "tokenMint": "SLRSSpSLUTP7okbCUBYStWCo1vUgyt775faPqz8HUMr",
+    "decimals": 6,
+    "serumV3Usdc": "2Gx3UfV831BAh8uQv1FKSPKS9yajfeeD8GJ4ZNb2o2YP",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
