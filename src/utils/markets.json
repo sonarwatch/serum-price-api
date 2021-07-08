@@ -593,5 +593,12 @@
     "decimals": 6,
     "serumV3Usdc": "2Gx3UfV831BAh8uQv1FKSPKS9yajfeeD8GJ4ZNb2o2YP",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "AUSS",
+    "tokenMint": "Djoz8btdR7p6xWHoVtPYF3zyN9LU5BBfMoDk4HczSDqc",
+    "decimals": 9,
+    "serumV3Usdc": "bNbYoc2KawipbXj76BiXbUdf2NcGKWkdp4S9uDvWXB1",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
