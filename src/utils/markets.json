@@ -607,5 +607,12 @@
     "decimals": 9,
     "serumV3Usdc": "HkYJ3dX8CLSGyGZzfuqYiuoDjDmrDiu1vZhPtFJZa5Vt",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "SODA",
+    "tokenMint": "sodaNXUbtjMvHe9c5Uw7o7VAcVpXPHAvtaRaiPVJQuE",
+    "decimals": 0,
+    "serumV3Usdc": "6KFs2wUzME8Z3AeWL4HfKkXbtik5zVvebdg5qCxqt4hB",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
