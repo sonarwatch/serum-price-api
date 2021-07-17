@@ -628,5 +628,12 @@
     "decimals": 6,
     "serumV3Usdc": "HXBi8YBwbh4TXF6PjVw81m8Z3Cc4WBofvauj5SBFdgUs",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "CRC",
+    "tokenMint": "z9WZXekbCtwoxyfAwEJn1euXybvqLzPVv3NDzJzkq7C",
+    "decimals": 9,
+    "serumV3Usdc": "28UzKVL5kwzPA9xdLFYJRManeY6RHgmTiU5K1h13XCRv",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
