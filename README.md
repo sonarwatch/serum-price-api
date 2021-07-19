@@ -10,7 +10,7 @@
 
 ### Use Sonar's public API
 Sonar provides a public instance of the api at: [https://price-api.sonar.watch/prices](https://price-api.sonar.watch/prices)<br>
-For more information on its use, please use the following documentation: [DOCS](http://docs.price-api.sonar.watch/)
+For more information on its use, please use the following documentation: [DOCS](https://docs-price-api.sonar.watch/)
 
 ### Deploy your own API
 The easiest way, to get up and running quickly, is to deploy to Heroku using the button below.<br>
