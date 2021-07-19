@@ -6,6 +6,7 @@ const logger = require('../../logger');
 const sleep = require('../../utils/sleep');
 const markets = require('../../utils/markets.json');
 const stableCoins = require('../../utils/stableCoins.json');
+const indexedCoins = require('../../utils/indexedCoins.json');
 const throwIfNull = require('../../utils/throwIfNull');
 
 const USDC_DECIMALS = 6;
@@ -30,6 +31,23 @@ exports.Prices = class Prices extends Service {
       }
     } catch (error) {
       logger.error('[addStableCoins]', error);
+    }
+  }
+
+  async addIndexedCoin(price) {
+    const indexes = indexedCoins[price.mint];
+    if (indexes) {
+      for (let i = 0; i < indexes.length; i += 1) {
+        const index = indexes[i];
+        const indexedPrice = {
+          id: index.tokenMint,
+          mint: index.tokenMint,
+          symbol: index.symbol,
+          price: price.price,
+          serumV3Usdc: price.serumV3Usdc,
+        };
+        await this.create(indexedPrice);
+      }
     }
   }
 
@@ -73,6 +91,7 @@ exports.Prices = class Prices extends Service {
         }
 
         await this.create(price);
+        await this.addIndexedCoin(price);
       } catch (error) {
         logger.error(error);
       }
