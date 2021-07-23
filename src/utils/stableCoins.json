@@ -6,7 +6,7 @@
     "serumV3Usdc": "77quYg4MGneUdjgXCunt9GgM1usmrxKY31twEy3WHwcS"
   },
   {
-    "symbol": "WUSDC",
+    "symbol": "wUSDC",
     "price": 1,
     "tokenMint": "BXXkv6z8ykpG1yuvUDPgh732wzVHB69RnB9YgSYh3itW",
     "serumV3Usdc": "77quYg4MGneUdjgXCunt9GgM1usmrxKY31twEy3WHwcS"
@@ -21,6 +21,12 @@
     "symbol": "wUSDT",
     "price": 1,
     "tokenMint": "BQcdHdAQW1hczDbBi9hiegXAR7A98Q9jx3X3iBBBDiq4",
+    "serumV3Usdc": "77quYg4MGneUdjgXCunt9GgM1usmrxKY31twEy3WHwcS"
+  },
+  {
+    "symbol": "wUST",
+    "price": 1,
+    "tokenMint": "CXLBjMMcwkc17GfJtBos6rQCo1ypeH6eDbB82Kby4MRm",
     "serumV3Usdc": "77quYg4MGneUdjgXCunt9GgM1usmrxKY31twEy3WHwcS"
   },
   {
