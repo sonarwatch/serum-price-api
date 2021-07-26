@@ -34,5 +34,29 @@
     "price": 1,
     "tokenMint": "Ea5SjE2Y6yvCeW5dYTn7PYMuW5ikXkvbGdcmSnXeaLjS",
     "serumV3Usdc": "77quYg4MGneUdjgXCunt9GgM1usmrxKY31twEy3WHwcS"
+  },
+  {
+    "symbol": "wBUSD",
+    "price": 1,
+    "tokenMint": "AJ1W9A9N9dEMdVyoDiam2rV44gnBm2csrPDP7xqcapgX",
+    "serumV3Usdc": "77quYg4MGneUdjgXCunt9GgM1usmrxKY31twEy3WHwcS"
+  },
+  {
+    "symbol": "sUSDC-9",
+    "price": 1,
+    "tokenMint": "JEFFSQ3s8T3wKsvp4tnRAsUBW7Cqgnf8ukBZC4C8XBm1",
+    "serumV3Usdc": "77quYg4MGneUdjgXCunt9GgM1usmrxKY31twEy3WHwcS"
+  },
+  {
+    "symbol": "sUSDC-8",
+    "price": 1,
+    "tokenMint": "88881Hu2jGMfCs9tMu5Rr7Ah7WBNBuXqde4nR5ZmKYYy",
+    "serumV3Usdc": "77quYg4MGneUdjgXCunt9GgM1usmrxKY31twEy3WHwcS"
+  },
+  {
+    "symbol": "wHUSD",
+    "price": 1,
+    "tokenMint": "BybpSTBoZHsmKnfxYG47GDhVPKrnEKX31CScShbrzUhX",
+    "serumV3Usdc": "77quYg4MGneUdjgXCunt9GgM1usmrxKY31twEy3WHwcS"
   }
 ]

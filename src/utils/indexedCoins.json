@@ -3,6 +3,42 @@
     {
       "symbol": "pBTC",
       "tokenMint": "DYDWu4hE4MN3aH897xQ3sRTs5EAjJDmQsKLNhbpUiKun"
+    },
+    {
+      "symbol": "sBTC-8",
+      "tokenMint": "SBTCB6pWqeDo6zGi9WVRMLCsKsN6JiR1RMUqvLtgSRv"
+    },
+    {
+      "symbol": "wHBTC",
+      "tokenMint": "8pBc4v9GAwCBNWPB5XKA93APexMGAS4qMr37vNke9Ref"
+    },
+    {
+      "symbol": "srenBTC-9",
+      "tokenMint": "FACTQhZBfRzC7A76antnpAoZtiwYmUfdAN8wz7e8rxC5"
+    },
+    {
+      "symbol": "sBTC-9",
+      "tokenMint": "9999j2A8sXUtHtDoQdk528oVzhaKBsXyRGZ67FKGoi7H"
+    },
+    {
+      "symbol": "ibBTC",
+      "tokenMint": "66CgfJQoZkpkrEgC1z4vFJcSFc4V6T5HqbjSSNuqcNJz"
+    }
+  ],
+  "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt": [
+    {
+      "symbol": "wSRM",
+      "tokenMint": "2jXy799YnEcRXneFo2GEAB6SDRsAa767HpWmktRr1DaP"
+    }
+  ],
+  "AGFEad2et2ZJif9jaGpdMixQqvW5i81aBdvKe7PHNfz3": [
+    {
+      "symbol": "wFTT",
+      "tokenMint": "GbBWwtYTMPis4VHb8MrBbdibPhn28TSrLB53KvUmb7Gi"
+    },
+    {
+      "symbol": "sFTT-9",
+      "tokenMint": "FTT9rBBrYwcHam4qLvkzzzhrsihYMbZ3k6wJbdoahxAt"
     }
   ]
 }
