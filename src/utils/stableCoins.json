@@ -58,5 +58,11 @@
     "price": 1,
     "tokenMint": "BybpSTBoZHsmKnfxYG47GDhVPKrnEKX31CScShbrzUhX",
     "serumV3Usdc": "77quYg4MGneUdjgXCunt9GgM1usmrxKY31twEy3WHwcS"
+  },
+  {
+    "symbol": "wFRAX",
+    "price": 1,
+    "tokenMint": "8L8pDf3jutdpdr4m3np68CL9ZroLActrqwxi6s9Ah5xU",
+    "serumV3Usdc": "77quYg4MGneUdjgXCunt9GgM1usmrxKY31twEy3WHwcS"
   }
 ]
