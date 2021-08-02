@@ -1,4 +1,14 @@
 {
+  "So11111111111111111111111111111111111111112": [
+    {
+      "symbol": "SOL",
+      "tokenMint": "11111111111111111111111111111111"
+    },
+    {
+      "symbol": "mSOL",
+      "tokenMint": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So"
+    }
+  ],
   "9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E": [
     {
       "symbol": "pBTC",

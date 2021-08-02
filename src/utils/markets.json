@@ -1,13 +1,6 @@
 [
   {
     "symbol": "SOL",
-    "tokenMint": "11111111111111111111111111111111",
-    "decimals": 9,
-    "serumV3Usdc": "9wFFyRfZBsuAha4YcuxcXLKwMxJR43S7fPfQLusDBzvT",
-    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
-  },
-  {
-    "symbol": "SOL",
     "tokenMint": "So11111111111111111111111111111111111111112",
     "decimals": 9,
     "serumV3Usdc": "9wFFyRfZBsuAha4YcuxcXLKwMxJR43S7fPfQLusDBzvT",
