@@ -649,5 +649,12 @@
     "decimals": 6,
     "serumV3Usdc": "DYfigimKWc5VhavR4moPBibx9sMcWYVSjVdWvPztBPTa",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "LIKE",
+    "tokenMint": "3bRTivrVsitbmCTGtqwp7hxXPsybkjn4XLNtPsHqa3zR",
+    "decimals": 9,
+    "serumV3Usdc": "3WptgZZu34aiDrLMUiPntTYZGNZ72yT1yxHYxSdbTArX",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
