@@ -76,5 +76,17 @@
     "price": 1,
     "tokenMint": "2kycGCD8tJbrjJJqWN2Qz5ysN9iB4Bth3Uic4mSB7uak",
     "serumV3Usdc": "77quYg4MGneUdjgXCunt9GgM1usmrxKY31twEy3WHwcS"
+  },
+  {
+    "symbol": "MER LP",
+    "price": 1,
+    "tokenMint": "57h4LEnBooHrKbacYWGCFghmrTzYPVn8PwZkzTzRLvHa",
+    "serumV3Usdc": "77quYg4MGneUdjgXCunt9GgM1usmrxKY31twEy3WHwcS"
+  },
+  {
+    "symbol": "SBR LP",
+    "price": 1,
+    "tokenMint": "2poo1w1DL6yd2WNTCnNTzDqkC6MBXq7axo77P16yrBuf",
+    "serumV3Usdc": "77quYg4MGneUdjgXCunt9GgM1usmrxKY31twEy3WHwcS"
   }
 ]
