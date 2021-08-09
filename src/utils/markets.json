@@ -656,5 +656,12 @@
     "decimals": 9,
     "serumV3Usdc": "3WptgZZu34aiDrLMUiPntTYZGNZ72yT1yxHYxSdbTArX",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "STNK",
+    "tokenMint": "43VWkd99HjqkhFTZbWBpMpRhjG469nWa7x7uEsgSH7We",
+    "decimals": 9,
+    "serumV3Usdc": "7vJhxNnkPBTJKNHsbjZUhmCVCxmYKgV6vgJ56eH2MQaC",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
