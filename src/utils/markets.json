@@ -663,5 +663,12 @@
     "decimals": 9,
     "serumV3Usdc": "7vJhxNnkPBTJKNHsbjZUhmCVCxmYKgV6vgJ56eH2MQaC",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "PORT",
+    "tokenMint": "PoRTjZMPXb9T7dyU7tpLEZRQj7e6ssfAE62j2oQuc6y",
+    "decimals": 6,
+    "serumV3Usdc": "8x8jf7ikJwgP9UthadtiGFgfFuyyyYPHL3obJAuxFWko",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
