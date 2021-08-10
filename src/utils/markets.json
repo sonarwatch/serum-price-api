@@ -677,5 +677,12 @@
     "decimals": 6,
     "serumV3Usdc": "8N1KkhaCYDpj3awD58d85n973EwkpeYnRp84y1kdZpMX",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "OXS",
+    "tokenMint": "4TGxgCSJQx2GQk9oHZ8dC5m3JNXTYZHjXumKAW3vLnNx",
+    "decimals": 9,
+    "serumV3Usdc": "gtQT1ipaCBC5wmTm99F9irBDhiLJCo1pbxrcFUMn6mp",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
