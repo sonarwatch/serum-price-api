@@ -684,5 +684,12 @@
     "decimals": 9,
     "serumV3Usdc": "gtQT1ipaCBC5wmTm99F9irBDhiLJCo1pbxrcFUMn6mp",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "gSAIL",
+    "tokenMint": "GSaiLQxREzaxUcE3v28HxBacoUQPZNtXx1eQsCFsX9Bg",
+    "decimals": 9,
+    "serumV3Usdc": "3JR9wrufTbpT7rGzKJi3hGja7ZD9bd6VEEHhANiA9Hhu",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
