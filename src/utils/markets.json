@@ -698,5 +698,12 @@
     "decimals": 6,
     "serumV3Usdc": "3d4rzwpy9iGdCZvgxcu7B1YocYffVLsQXPXkBZKt2zLc",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "ISOLA",
+    "tokenMint": "333iHoRM2Awhf9uVZtSyTfU8AekdGrgQePZsKMFPgKmS",
+    "decimals": 6,
+    "serumV3Usdc": "42QVcMqoXmHT94zaBXm9KeU7pqDfBuAPHYN9ADW8weCF",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
