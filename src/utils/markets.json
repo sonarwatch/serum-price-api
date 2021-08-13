@@ -705,5 +705,12 @@
     "decimals": 6,
     "serumV3Usdc": "42QVcMqoXmHT94zaBXm9KeU7pqDfBuAPHYN9ADW8weCF",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
+  },
+  {
+    "symbol": "TOX",
+    "tokenMint": "Bx4ykEMurwPQBAFNvthGj73fMBVTvHa8e9cbAyaK4ZSh",
+    "decimals": 9,
+    "serumV3Usdc": "5DgXgvgTnXzg12xJCRQnRmqWV4nNaRGabPM7ALcCaZby",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin"
   }
 ]
