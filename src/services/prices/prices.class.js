@@ -1,5 +1,4 @@
 const { PublicKey } = require('@solana/web3.js');
-const { Market } = require('@project-serum/serum');
 const { Service } = require('feathers-memory');
 
 const logger = require('../../logger');
@@ -7,9 +6,8 @@ const sleep = require('../../utils/sleep');
 const markets = require('../../utils/markets.json');
 const stableCoins = require('../../utils/stableCoins.json');
 const indexedCoins = require('../../utils/indexedCoins.json');
-const throwIfNull = require('../../utils/throwIfNull');
-
-const USDC_DECIMALS = 6;
+const fetchRaydiumAMM = require('./fetchRaydiumAMM');
+const fetchSerumDEX = require('./fetchSerumDEX');
 
 exports.Prices = class Prices extends Service {
   setup(app) {
@@ -56,45 +54,34 @@ exports.Prices = class Prices extends Service {
     for (let i = 0; i < markets.length; i += 1) {
       const connection = this.connections[i % this.connections.length];
       const baseMarketObj = markets[i];
-      const marketAddress = new PublicKey(baseMarketObj.serumV3Usdc);
-      const programId = new PublicKey(baseMarketObj.programId);
+      let tokenPrice = 0;
+
+      try {
+        if (baseMarketObj.raydiumV4AMM) {
+          tokenPrice = await fetchRaydiumAMM(connection, new PublicKey(baseMarketObj.raydiumV4AMM));
+        } else {
+          tokenPrice = await fetchSerumDEX(
+            connection,
+            new PublicKey(baseMarketObj.serumV3Usdc),
+            new PublicKey(baseMarketObj.programId),
+            baseMarketObj.decimals,
+          );
+        }
+      } catch (error) {
+        logger.error(error);
+        continue;
+      }
+
       const price = {
         id: baseMarketObj.tokenMint,
         mint: baseMarketObj.tokenMint,
         symbol: baseMarketObj.symbol,
-        price: 0,
+        price: tokenPrice,
         serumV3Usdc: baseMarketObj.serumV3Usdc,
       };
-      try {
-        const { owner, data } = throwIfNull(
-          await connection.getAccountInfo(marketAddress),
-          'Market not found',
-        );
-        if (!owner.equals(programId)) { throw new Error(`Address not owned by program: ${owner.toBase58()}`); }
-        const decoded = Market.getLayout(programId).decode(data);
-        if (
-          !decoded.accountFlags.initialized
-          || !decoded.accountFlags.market
-          || !decoded.ownAddress.equals(marketAddress)
-        ) {
-          throw new Error('Invalid market');
-        }
 
-        const market = new Market(decoded, baseMarketObj.decimals, USDC_DECIMALS, {}, programId);
-        const bids = await market.loadBids(connection);
-        const asks = await market.loadAsks(connection);
-        const firstAsk = await asks.items(false).next();
-        const firstBid = await bids.items(true).next();
-        if (firstAsk.value && firstBid.value) {
-          const midPrice = (firstBid.value.price + firstAsk.value.price) / 2;
-          price.price = midPrice;
-        }
-
-        await this.create(price);
-        await this.addIndexedCoin(price);
-      } catch (error) {
-        logger.error(error);
-      }
+      await this.create(price);
+      await this.addIndexedCoin(price);
       await sleep(2000);
     }
   }
