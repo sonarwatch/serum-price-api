@@ -822,5 +822,13 @@
     "serumV3Usdc": "GqFKHmiuKuE9egumByZaLF7ziz6VWWMUNZsRUeURQbDz",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin",
     "raydiumV4AMM": null
+  },
+  {
+    "symbol": "BET",
+    "tokenMint": "3UMYcByZNQVHHyyqVfXMKr8XWP64omYBFVvf7bD6wBiA",
+    "decimals": 9,
+    "serumV3Usdc": "GsWX1FgWP35jchi5R9uiNys2g6GftruEiHVpPS2b7Vq8",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin",
+    "raydiumV4AMM": null
   }
 ]
