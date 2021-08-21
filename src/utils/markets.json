@@ -785,9 +785,9 @@
   },
   {
     "symbol": "gSAIL",
-    "tokenMint": "GSaiLQxREzaxUcE3v28HxBacoUQPZNtXx1eQsCFsX9Bg",
+    "tokenMint": "Gsai2KN28MTGcSZ1gKYFswUpFpS7EM9mvdR9c8f6iVXJ",
     "decimals": 9,
-    "serumV3Usdc": "3JR9wrufTbpT7rGzKJi3hGja7ZD9bd6VEEHhANiA9Hhu",
+    "serumV3Usdc": "2zkPyHgQkKG6qJED6MTbjfCfUbZeT9VFwLm1Ld9nKxRp",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin",
     "raydiumV4AMM": null
   },
