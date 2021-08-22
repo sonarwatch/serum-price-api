@@ -830,5 +830,13 @@
     "serumV3Usdc": "GsWX1FgWP35jchi5R9uiNys2g6GftruEiHVpPS2b7Vq8",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin",
     "raydiumV4AMM": null
+  },
+  {
+    "symbol": "ACMN",
+    "tokenMint": "9MhNoxy1PbmEazjPo9kiZPCcG7BiFbhi3bWZXZgacfpp",
+    "decimals": 9,
+    "serumV3Usdc": "E3U6GzZwQMDXtd7ABdsfxYx6oeLyaeh6dc6Ez91ZXQrG",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin",
+    "raydiumV4AMM": null
   }
 ]
