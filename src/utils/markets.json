@@ -838,5 +838,13 @@
     "serumV3Usdc": "E3U6GzZwQMDXtd7ABdsfxYx6oeLyaeh6dc6Ez91ZXQrG",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin",
     "raydiumV4AMM": null
+  },
+  {
+    "symbol": "CRP",
+    "tokenMint": "DubwWZNWiNGMMeeQHPnMATNj77YZPZSAz2WVR5WjLJqz",
+    "decimals": 9,
+    "serumV3Usdc": "8nXjHLfiR6wB22J7VBGeKjsRiSa54Eu7cgL17GE4kJUw",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin",
+    "raydiumV4AMM": null
   }
 ]
