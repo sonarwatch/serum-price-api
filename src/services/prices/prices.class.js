@@ -41,7 +41,7 @@ exports.Prices = class Prices extends Service {
           id: index.tokenMint,
           mint: index.tokenMint,
           symbol: index.symbol,
-          price: price.price,
+          price: price.price * index.ratio,
           serumV3Usdc: price.serumV3Usdc,
         };
         await this.create(indexedPrice);

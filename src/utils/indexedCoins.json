@@ -2,56 +2,73 @@
   "So11111111111111111111111111111111111111112": [
     {
       "symbol": "SOL",
+      "ratio": 1,
       "tokenMint": "11111111111111111111111111111111"
     },
     {
       "symbol": "mSOL",
+      "ratio": 1,
       "tokenMint": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So"
     },
     {
       "symbol": "pSOL",
+      "ratio": 1,
       "tokenMint": "9EaLkQrbjmbbuZG9Wdpo8qfNUEjHATJFSycEmw6f1rGX"
     }
   ],
   "9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E": [
     {
       "symbol": "pBTC",
+      "ratio": 1,
       "tokenMint": "DYDWu4hE4MN3aH897xQ3sRTs5EAjJDmQsKLNhbpUiKun"
     },
     {
       "symbol": "sBTC-8",
+      "ratio": 1,
       "tokenMint": "SBTCB6pWqeDo6zGi9WVRMLCsKsN6JiR1RMUqvLtgSRv"
     },
     {
       "symbol": "wHBTC",
+      "ratio": 1,
       "tokenMint": "8pBc4v9GAwCBNWPB5XKA93APexMGAS4qMr37vNke9Ref"
     },
     {
       "symbol": "srenBTC-9",
+      "ratio": 1,
       "tokenMint": "FACTQhZBfRzC7A76antnpAoZtiwYmUfdAN8wz7e8rxC5"
     },
     {
       "symbol": "sBTC-9",
+      "ratio": 1,
       "tokenMint": "9999j2A8sXUtHtDoQdk528oVzhaKBsXyRGZ67FKGoi7H"
     },
     {
       "symbol": "ibBTC",
+      "ratio": 1,
       "tokenMint": "66CgfJQoZkpkrEgC1z4vFJcSFc4V6T5HqbjSSNuqcNJz"
     }
   ],
   "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt": [
     {
       "symbol": "wSRM",
+      "ratio": 1,
       "tokenMint": "2jXy799YnEcRXneFo2GEAB6SDRsAa767HpWmktRr1DaP"
+    },
+    {
+      "symbol": "MSRM",
+      "ratio": 1000000,
+      "tokenMint": "MSRMcoVyrFxnSgo5uXwone5SKcGhT1KEJMFEkMEWf9L"
     }
   ],
   "AGFEad2et2ZJif9jaGpdMixQqvW5i81aBdvKe7PHNfz3": [
     {
       "symbol": "wFTT",
+      "ratio": 1,
       "tokenMint": "GbBWwtYTMPis4VHb8MrBbdibPhn28TSrLB53KvUmb7Gi"
     },
     {
       "symbol": "sFTT-9",
+      "ratio": 1,
       "tokenMint": "FTT9rBBrYwcHam4qLvkzzzhrsihYMbZ3k6wJbdoahxAt"
     }
   ]
