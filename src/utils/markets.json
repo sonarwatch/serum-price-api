@@ -878,5 +878,13 @@
     "serumV3Usdc": "8x8jf7ikJwgP9UthadtiGFgfFuyyyYPHL3obJAuxFWko",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin",
     "raydiumV4AMM": null
+  },
+  {
+    "symbol": "RPC",
+    "tokenMint": "8oJ4nGEJmGCq8RikM3R8wdAN8d8ZxrhMYpbUPYzCMgFq",
+    "decimals": 9,
+    "serumV3Usdc": "BnbZn344JTBaSdXUBh111935hA7UjnJe973AirirSzJz",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin",
+    "raydiumV4AMM": null
   }
 ]
