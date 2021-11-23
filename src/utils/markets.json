@@ -886,5 +886,13 @@
     "serumV3Usdc": "BnbZn344JTBaSdXUBh111935hA7UjnJe973AirirSzJz",
     "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin",
     "raydiumV4AMM": null
+  },
+  {
+    "symbol": "SamoShib",
+    "tokenMint": "BDCyYhw4zvf8wx3e8rXcrcYnmsX5BxF7R6g5ooXqu3uL",
+    "decimals": 4,
+    "serumV3Usdc": "CBaYZDJktoYTrSc38Qd2dq3Kko9bzVKMx6i31nBRVSd4",
+    "programId": "9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin",
+    "raydiumV4AMM": null
   }
 ]
